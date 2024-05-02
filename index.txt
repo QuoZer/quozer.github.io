@@ -2,8 +2,8 @@ vCard - Personal Portfolio
 
 # sidebar
 
-alt = Richard hanrick
-Richard hanrick
+alt = Matvei Panteleev
+Matvei Panteleev
 Web developer
 
 Show Contacts
