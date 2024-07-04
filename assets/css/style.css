@@ -1043,7 +1043,10 @@ main {
   color: white;
   font-size: 40px;
 }
-
+/* Hide tech-icons background on hover */
+.project-item > a:hover .tech-icons {
+  background: transparent;
+}
 
 
 /*-----------------------------------*\
