@@ -1029,8 +1029,8 @@ main {
 /* New CSS for tech-icons */
 .tech-icons {
   position: absolute;
-  top: 10px;
-  left: 10px;
+  top: 0;
+  left: 0;
   background: rgba(0, 0, 0, 0.5);
   padding: 5px 10px;
   border-radius: 16px;
