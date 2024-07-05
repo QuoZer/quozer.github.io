@@ -982,8 +982,8 @@ main {
   background: var(--jet);
   color: var(--orange-yellow-crayola);
   position: absolute;
-  top: 0;
-  left: 60px;
+  top: 20px;
+  right: 20px;
   transform: translate(-50%, -50%) scale(var(--scale));
   font-size: 20px;
   padding: 18px;
@@ -1052,11 +1052,14 @@ main {
 /* Project Description Styling */
 .project-description {
   position: absolute;
+  top: 40px;
   bottom: 10px;
   left: 10px;
+  right: 10px;
   background: rgba(0, 0, 0, 0.5);
   color: white;
   padding: 10px;
+  font-size: 10px;
   border-radius: 8px;
   opacity: 0;
   transform: translateY(20px);
