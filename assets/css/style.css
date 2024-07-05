@@ -983,7 +983,7 @@ main {
   color: var(--orange-yellow-crayola);
   position: absolute;
   top: 0;
-  right: 0;
+  right: 60;
   transform: translate(-0%, -100%) scale(var(--scale));
   font-size: 20px;
   padding: 18px;
