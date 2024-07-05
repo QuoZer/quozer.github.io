@@ -987,7 +987,7 @@ main {
   transform: translate(-50%, -50%) scale(var(--scale));
   font-size: 20px;
   padding: 18px;
-  border-radius: 12px;
+  border-radius: 16px;
   opacity: 0;
   z-index: 1;
   transition: var(--transition-1);
