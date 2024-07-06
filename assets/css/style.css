@@ -984,12 +984,12 @@ main {
   position: absolute;
   top: 20px;
   right: -20px;
-  transform: translate(-50%, -50%) scale(var(--scale));
+  /* transform: translate(-50%, -50%) scale(var(--scale)); */
   font-size: 20px;
   padding: 18px;
-  border-radius: 16px;
+  border-radius: 0 0 0 16px;
   opacity: 0;
-  z-index: 1;
+  z-index: 2;
   transition: var(--transition-1);
 }
 
@@ -1061,6 +1061,7 @@ main {
   padding: 10px;
   font-size: 14px;
   border-radius: 8px;
+  z-index: 2;
   opacity: 0;
   /* transform: translateY(20px); */
   transition: var(--transition-1);
