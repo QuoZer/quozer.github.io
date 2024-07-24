@@ -1357,6 +1357,30 @@
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.4/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.12.4/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyCm7or7mEcSAN0fPgf3el_tUAFX7xqszUY",
+      authDomain: "portfolio-15d2a.firebaseapp.com",
+      projectId: "portfolio-15d2a",
+      storageBucket: "portfolio-15d2a.appspot.com",
+      messagingSenderId: "704170071185",
+      appId: "1:704170071185:web:901a215fa6d7a953f39b30",
+      measurementId: "G-TCV4F668TC"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
+
 </body>
 
 </html>
